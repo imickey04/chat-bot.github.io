@@ -139,7 +139,7 @@
     border-radius: 8px;
     border-bottom-right-radius: 2px;
     max-width: 80%;
-    margin-right: 10px;
+    margin-left: 10px;
     animation: floatup 0.5s forwards;
 }
 
