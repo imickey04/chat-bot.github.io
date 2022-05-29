@@ -2,10 +2,6 @@ function getBotResponse(input){
 
    // Rock + Paper + Scissor
 
-    if (input == "❤️"){
-        return "Oh!! So nice! ❤️, let's play Rock + Paper + Scissor, start with any..."
-    }
-
     if (input == "rock" || input == "Rock"){
         return "Paper";    
     }
