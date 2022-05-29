@@ -97,7 +97,7 @@ function sendButton(){
 }
 
 function heartButton(){
-    buttonSendText("Heart Clicked!");
+    buttonSendText("❤️");
 }
 
 $("#textInput").keypress(function(e) {
