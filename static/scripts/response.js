@@ -1,13 +1,19 @@
 function getBotResponse(input){
 
-    // Rock + Paper + Scissor
-    
-    if (input == "rock" || input == "Rock"){
+   // Rock + Paper + Scissor
+
+    if (input == "❤️"){
+        return "Oh!! So nice! ❤️, let's play Rock + Paper + Scissor, start with any..."
+    }
+
+    else if (input == "rock" || input == "Rock"){
         return "Paper";    
     }
+
     else if (input == "Paper" || input == "paper"){
         return "Scissor";
     }
+    
     else if (input == "scissor" || input == "Scissor"){
         return "Rock";
     }
