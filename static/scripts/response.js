@@ -23,6 +23,10 @@ function getBotResponse(input){
     else if (input == "I am good" || input == "I'm good" || input == "i'm good" || input == "i am good" || input == "I am fine" || input == "i am fine" || input == "i'm fine"){
         return "It's nice!"
     }
+   
+   else if (input == "ok" || input == "Ok" || input == "OK" || input == "okay" || input == "Okay"){
+        return "❤️";
+    }
 
     else if (input == "say more" || input == "Say more" || input == "Say something else" || input == "say something else"){
         return "Summer is Hot, Winter is Cold & Monsoon that's I love the most!!";
@@ -53,7 +57,7 @@ function getBotResponse(input){
     }
 
     else {
-        return "Try asking something else or else say :- Say more";
+        return "Try asking something else or say :- [Say more]";
     }
 
 }
