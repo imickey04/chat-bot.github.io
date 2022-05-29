@@ -25,7 +25,7 @@ function getBotResponse(input){
     }
 
     else if (input == "say more" || input == "Say more" || input == "Say something else" || input == "say something else"){
-        return "Summer is Hot, Winter is Cold & Monsoon that's I love most!!";
+        return "Summer is Hot, Winter is Cold & Monsoon that's I love the most!!";
     }
 
     else if (input == "wow" || input == "Wow"){
@@ -53,7 +53,7 @@ function getBotResponse(input){
     }
 
     else {
-        return "Try asking something else";
+        return "Try asking something else or else say :- Say more";
     }
 
 }
