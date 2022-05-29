@@ -40,7 +40,7 @@ function getTime(){
 // First message when user scrolls it up:-
 
 function firstBotMessage(){
-    let firstMessage = "Hello, How Are You Doing?";
+    let firstMessage = "Hey! Feel free & try something new : (Start with - Hi)";
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
