@@ -6,7 +6,7 @@ function getBotResponse(input){
         return "Oh!! So nice! ❤️, let's play Rock + Paper + Scissor, start with any..."
     }
 
-    else if (input == "rock" || input == "Rock"){
+    if (input == "rock" || input == "Rock"){
         return "Paper";    
     }
 
